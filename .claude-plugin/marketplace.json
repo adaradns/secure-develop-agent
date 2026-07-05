@@ -1,0 +1,17 @@
+{
+  "name": "secure-develop-agent",
+  "owner": {
+    "name": "codeaseguro"
+  },
+  "metadata": {
+    "description": "Marketplace for the secure-develop Claude Code plugin: OWASP-based security auditing and guidance.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "secure-develop",
+      "source": ".",
+      "description": "Security auditing and guidance for backend/frontend and infrastructure code, based on OWASP Top 10:2025 and OWASP Top 10 for LLM Applications 2025. Includes a security-audit agent."
+    }
+  ]
+}

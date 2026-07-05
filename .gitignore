@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Secrets / local env (a security plugin shouldn't ship these)
+.env
+.env.*
+!.env.example
+
+# Node (in case examples/tooling get added later)
+node_modules/
