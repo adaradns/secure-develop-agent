@@ -1,6 +1,6 @@
 {
   "name": "secure-develop",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Security auditing and guidance for backend/frontend development (Java/Quarkus/Spring Boot, Node/NestJS, Next.js, ReactJS) and infrastructure (Docker). Includes OWASP Top 10 and OWASP Top 10 for LLM Applications checklists, plus a security audit agent.",
   "author": {
     "name": "codeaseguro"
