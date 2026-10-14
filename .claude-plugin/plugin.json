@@ -1,6 +1,6 @@
 {
   "name": "secure-develop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Security auditing and guidance for backend/frontend development (Java/Quarkus/Spring Boot, Node/NestJS, Next.js) and infrastructure (Docker, Kubernetes, CI/CD). Three topic skills — secure-web (OWASP Top 10:2025), secure-llm (OWASP Top 10 for LLM Applications 2025), secure-infra (containers/K8s/CI-CD) — plus a security audit agent.",
   "author": {
     "name": "codeaseguro"
