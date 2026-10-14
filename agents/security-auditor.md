@@ -20,9 +20,13 @@ advice. Every finding must be anchored to a real file and line.
    build output).
 
 2. **Identify which references apply.** Do not read every reference by default —
-   determine the project type first:
-   - Does it expose HTTP endpoints? → the full `owasp-top-10-2025.md` applies.
-   - Does it integrate an LLM (Claude or another) anywhere? → add `owasp-top-10-2025-LLM.md`.
+   determine the project type first and read only what matches:
+   - Exposes HTTP endpoints? → `skills/secure-web/references/owasp-top-10-2025.md`, plus the
+     matching stack guide in `skills/secure-web/references/stacks/` (nestjs, nextjs,
+     spring-boot, quarkus) detected from the manifest.
+   - Integrates an LLM (Claude or another)? → add `skills/secure-llm/references/owasp-top-10-2025-LLM.md`.
+   - Ships a Dockerfile, Kubernetes manifest, or CI/CD pipeline? → add the matching file in
+     `skills/secure-infra/references/` (dockerfile / kubernetes / ci-cd).
 
    Read only the relevant references, not all of them just in case.
 

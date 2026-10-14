@@ -1,7 +1,7 @@
 {
   "name": "secure-develop",
-  "version": "0.1.0",
-  "description": "Security auditing and guidance for backend/frontend development (Java/Quarkus/Spring Boot, Node/NestJS, Next.js, ReactJS) and infrastructure (Docker). Includes OWASP Top 10 and OWASP Top 10 for LLM Applications checklists, plus a security audit agent.",
+  "version": "0.2.0",
+  "description": "Security auditing and guidance for backend/frontend development (Java/Quarkus/Spring Boot, Node/NestJS, Next.js) and infrastructure (Docker, Kubernetes, CI/CD). Three topic skills — secure-web (OWASP Top 10:2025), secure-llm (OWASP Top 10 for LLM Applications 2025), secure-infra (containers/K8s/CI-CD) — plus a security audit agent.",
   "author": {
     "name": "codeaseguro"
   },
@@ -11,12 +11,15 @@
     "security",
     "owasp",
     "llm-security",
+    "prompt-injection",
     "quarkus",
     "spring-boot",
+    "nestjs",
     "nextjs",
-    "reactjs",
     "nodejs",
     "docker",
+    "kubernetes",
+    "ci-cd",
     "code-review"
   ]
 }
