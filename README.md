@@ -1,4 +1,7 @@
 # secure-develop
+Co-authored-by: Codea Seguro 
+[![YouTube](https://img.shields.io/badge/YouTube-Codea_Seguro-red?logo=youtube)](https://youtube.com/@codeaseguro)
+[![Instagram](https://img.shields.io/badge/Instagram-@codeaseguro-E4405F?logo=instagram)](https://instagram.com/codeaseguro)
 
 A Claude Code plugin for **secure development and security auditing** across backend,
 frontend, and infrastructure code.
